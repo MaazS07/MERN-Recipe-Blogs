@@ -1,0 +1,336 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(white aliceblue);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.random
+{
+color: black;
+font-size: 7vh;
+text-align: center;
+}
+.nav
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background:linear-gradient(green black);
+    width: 100vw;
+    padding: 3vh 0;
+}
+.nav h1{
+    color:greenyellow;
+    font-size: 5vh;
+ 
+}
+form input{
+  width: 25vw;
+  height: 4vh;
+  border: 2px solid lightgreen;
+  
+  padding-left: 2vw;
+}
+
+.button{
+    background-color:lightgreen;
+    color: black;
+    padding:  0.8vh 3vw;
+    border: 2px solid whitesmoke;
+  
+}
+.button:hover{
+    cursor: pointer;
+    background-color: white ;
+    color: green;
+    transition: all ease-in 0.5s;
+}
+.recipe-container
+{
+    width: 98vw;
+    display: flex;
+   flex-wrap: wrap;
+    
+}
+#h2
+{
+    font-size: 5vh;
+    color: black;
+    position: fixed;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+   
+}
+.recipe-div{
+    width: 22vw;
+   margin: 5vh 0vw 2vw 2.5vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    height: 55vh;
+    background-color:white;
+    box-shadow: 4px 4px 4px 4px rgb(126, 147, 126);
+    overflow: hidden;
+    border-top-right-radius: 10px;
+}
+.youtube
+{
+    padding-top: 1.9vw;
+    text-align: center;
+    font-size: 3vh;
+    
+}
+
+
+.recipe-div img{
+    width: 22vw; 
+    height: 27.5vh;
+    object-fit: cover;
+
+}
+.recipe-div a{
+
+    color: rgb(128, 32, 0);
+    text-decoration: none;
+font-size: 3.5vh;
+
+
+
+}
+.recipe-div h1{
+    font-size: 3vh;
+    color: Black;
+}
+.recipe-div h3{
+    font-size: 3.5vh;
+    color: grey;
+    opacity: 0.7;
+}
+.view-recipe-btn{
+       
+    background-color:rgb(40, 236, 40);
+    color: black;
+    padding:  2vh 3vw;
+    border: 2px solid whitesmoke;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    box-shadow: 4px 4px 4px 4px rgb(126, 147, 126);
+    cursor: pointer;
+    
+
+}
+.view-recipe-btn:hover{
+       
+    background-color:white;
+    color: black;
+    padding:  2vh 3vw;
+    border: 2px solid rgb(40, 236, 40);
+    
+
+}
+.recipe-details
+{
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%) ;
+  background:linear-gradient(#f8ffd1,yellow);
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px 4px rgb(207, 204, 204);
+    height: 70%;
+    width:60%;
+    transition: all 0.5s  ease-in-out;
+    overflow-y: scroll;
+   
+   
+
+}
+
+.recipe-content h2{
+    color: black;
+    font-size: 7vh;
+    text-align: center;
+    margin-top: 3vh;
+}
+.recipe-content p{
+    color: black;
+    font-size: 2.6vh;
+    /* height: 3vh; */
+    margin-top: 10vh;
+   
+}
+li{
+   list-style-type: none;
+   font-size: 3vh;
+}
+.ins
+{
+    text-align: center;
+    font-size: 5vh;
+}
+.close-btn
+{
+    
+    border: 2px solid black;
+    padding:  1.5vh 2.5vw;
+    color: black;
+    font-size: 3vh;
+    position: sticky;
+}
+.close-btn:hover{
+    background-color: red;
+    color: white;
+    transition: all ease-in 0.5s;
+}
+
+
+@media screen and (max-width:700px) {
+    
+*
+{
+    margin: 0;
+    padding: 0;
+}
+    form input{
+        width: 40vw;
+        height: 4vh;
+        border: 2px solid rgb(25, 1, 1);
+        
+        padding-left: 2vw;
+      }
+      .button{
+        background-color: aliceblue;
+        color: black;
+        padding:  1vh 3vw;
+        border: 2px solid rgb(24, 1, 1);
+      
+    }
+    .recipe-div{
+        width: 45vw;
+       margin: 5vh 2vw 2vw 2vw;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+        height: 40vh;
+        background-color: white;
+        padding: 3vh 0vw;
+        content: fit-content;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    img{
+        height: 25vh;
+        width: 45vw;
+        margin-top: -2vh;
+        
+        object-fit: cover;
+        aspect-ratio: 16/9;
+    
+    }
+    .recipe-details
+{
+    display:absolute;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%) ;
+    background-color: white;
+    border: 2px solid black;
+    height: 80%;
+    width:90%;
+    transition: all 0.5s  ease-in-out;
+    overflow-y: scroll;
+   
+   
+
+}
+.random
+{
+color: black;
+font-size: 7vh;
+text-align: center;
+}
+
+}
+@media screen and (max-width:450px) {
+    
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .nav h1{
+        color:aliceblue;
+        font-size: 4vh;
+     
+    }
+        form input{
+            width: 30vw;
+            height: 4vh;
+            border: 2px solid rgb(25, 1, 1);
+            
+            padding-left: 2vw;
+          }
+          .button{
+            background-color: aliceblue;
+            color: black;
+            padding:  1vh 1vw;
+            border: 2px solid rgb(24, 1, 1);
+          
+        }
+        .recipe-div{
+            width: 45vw;
+           margin: 5vh 2vw 2vw 2vw;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+            height: 40vh;
+            background-color: white;
+            padding: 3vh 0vw;
+            content: fit-content;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+    
+        img{
+            height: 25vh;
+            width: 45vw;
+            margin-top: -2vh;
+            
+            object-fit: cover;
+            aspect-ratio: 16/9;
+        
+        }
+        .recipe-details
+    {
+        display:absolute;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        -webkit-transform:translate(-50%,-50%) ;
+        background-color: white;
+        border: 2px solid black;
+        height: 80%;
+        width:90%;
+        transition: all 0.5s  ease-in-out;
+        overflow-y: scroll;
+       
+       
+    
+    }
+    
+    }

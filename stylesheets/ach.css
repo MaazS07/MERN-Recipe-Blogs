@@ -1,0 +1,43 @@
+
+
+.stats ul 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
+    background-color: white;
+}
+.stats ul li{
+    padding: 4vw;
+    list-style-type: none;
+    text-align: center;
+    font-size: 6vh;
+    font-weight: bolder;
+    color: grey;
+    
+}
+.stats ul li h5{
+    font-size:2vh;
+    opacity: 0.6;
+}
+
+
+.randomquote {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:2px solid black 0 2px solid black 0;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+    width: 100vw;
+    font-size: 7vh;
+    color: rgb(76, 74, 74);
+  }
+  

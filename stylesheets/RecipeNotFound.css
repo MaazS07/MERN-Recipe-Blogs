@@ -1,0 +1,25 @@
+/* Add this to your App.css or a new CSS file */
+
+.recipe-not-found {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 30vh;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .icon {
+    color: #ff7373;
+    margin-bottom: 10px;
+  }
+  
+  .exclamation {
+    margin-right: 5px;
+    color: #ff7373;
+  }
+  
